@@ -5,11 +5,12 @@
 }
 
 header .brand-custom{
-    font-weight: 600;
+    font-weight:bold;
+    font-size: 120%;
 }
 
 header .nav-custom{
-    font-weight: 700;
+    font-weight:600;
     color: black;
     font-size: 80%;
 }
@@ -23,4 +24,10 @@ header .nav-custom{
 
 .main-text-lower{
   margin-top: 125px;
+}
+
+.hero-video{
+  background-image: url(img/pexels-pixabay-416676.jpg);
+  background-size:1600px;
+  background-repeat: no-repeat;
 }
