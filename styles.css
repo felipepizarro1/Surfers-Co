@@ -6,38 +6,98 @@
 
 header .brand-custom{
     font-weight:bold;
-    font-size: 120%;
+    font-size: 170%;
 }
 
 header .nav-custom{
-    font-weight:600;
+    font-weight:700;
     color: black;
     font-size: 80%;
+    opacity: 1;
 }
+
+
 
 .navbar .brand-custom,
 .navbar .nav-custom,
 .navbar .social-icons {
-  margin: 0 90px;  /* Adjust margin values as needed */
+  margin: 0 120px;  /* Adjust margin values as needed */
+  
 }
 
 
 .main-text-lower{
-  margin-top: 125px;
+  margin-top: 80px;
+  z-index: 10;
+  position: relative;
+  
+}
+
+.main-text-lower .classy{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+}
+
+.main-text-lower .classy-white{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.margin-carousel{
+  margin-top: 25px;
 }
 
 .hero-video{
   width: 100%;
   height: 100%;
   position: relative;
+  opacity: 1;
 }
 
 .hero-video video{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
+  
 }
+
+.big{
+  margin-top: 280px;
+  position: absolute;
+  font-size: 1000%;
+  opacity: 0.1;
+  font-weight: 700;
+
+}
+
+@media (max-width: 575.98px) {
+  .big {
+    font-size: 70px; /* fs-5 */
+  }
+}
+
+.about{
+  
+  margin-top: 410px;
+  min-width: 100%;
+  min-height: 100%;
+  top: 110%;
+  
+ 
+}
+
+.about .section2-img{
+  width: 100%;
+  position: absolute;
+  right: 0%;
+  opacity: 1;
+ 
+}
+
