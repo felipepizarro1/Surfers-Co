@@ -87,6 +87,7 @@ header .nav-custom{
     min-height: 100%;
     top: 110%;
   }
+
 }
 
 .about{
@@ -119,4 +120,30 @@ header .nav-custom{
 
 .shadow-carousel {
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6); /* Adjust shadow as needed */
+}
+
+.card-left{
+  margin-top: 240px;
+  
+  min-width: 240%;
+  min-height: 140%;
+  top: 80%;
+  right:1300px;
+}
+
+.card-smaller{
+  position: absolute;
+  margin-top: 600px;
+  min-width: 100%;
+  min-height: 100%;
+  top: 110%;
+  right: 90%;
+}
+.yt-video{
+  z-index: 99;
+  margin-top: 650px;
+  min-width: 0%;
+  min-height: 140%;
+  top: 80%;
+  right:10px;
 }
