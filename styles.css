@@ -81,6 +81,12 @@ header .nav-custom{
   .big {
     font-size: 70px; /* fs-5 */
   }
+  .about{
+    margin-top: 80px;
+    min-width: 100%;
+    min-height: 100%;
+    top: 110%;
+  }
 }
 
 .about{
@@ -101,3 +107,16 @@ header .nav-custom{
  
 }
 
+.small-text{
+  font-size: 10px;
+  font-weight:600;
+
+}
+
+.small-paragraph{
+  font-size: 14px;
+}
+
+.shadow-carousel {
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6); /* Adjust shadow as needed */
+}
